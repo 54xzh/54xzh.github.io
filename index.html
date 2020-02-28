@@ -3,7 +3,7 @@
         <meta charset="utf-8"> 
         <title>54xzh的个人网站</title>
         <style>
-            div.head{background-image: linear-gradient(to bottom right, rgb(65, 3, 107), rgb(107, 167, 245));
+            body{background-image: linear-gradient(to bottom right, rgb(65, 3, 107), rgb(107, 167, 245));
             text-align: center;}
             h1{font-size: 60px;
             color: white;}
@@ -15,18 +15,37 @@
             div.su{text-align: center;}
             h1.name{line-height:1em}
             p.je{color: white;}
+            ul{ list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(51, 51, 51, 0);}
+            li{float: left;
+            font-size: 20px;}
+            li a{display:block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;}
+            .active{border-bottom-style:ridge}
+            li a:hover:not(.active){border-bottom-style:hidden}
         </style>
     <body>
+        <ul>
+            <li><a class="active" href="index.html">主页</a></li>
+            <li><a href="videolist.html">视频</a></li>
+            <li><a href="articlelist.html">文章</a></li>
+        </ul>          
         <div class="head">
                 <br />               
             <img src="img/toumar.png" alt="你连图都不能看嘛">
             <h1 class="name">54xzh</h1>
             <p class="je">喜欢就坚持呗qwq</p>
-            <p><a href="https://space.bilibili.com/15391462"><img src="img/s3.png"></a></p>
+            <p><a href="https://space.bilibili.com/15391462" target="_blank"><img src="img/s3.png"></a></p>
                 <br />
         </div>
         <div class="su">
-            <p>其实我不知道应该写什么,或许你可以在b站关注一下我o(*￣▽￣*)o</p>
+            <p class="je">其实我不知道应该写什么,或许你可以在b站关注一下我o(*￣▽￣*)o</p>
         </div>
     </body>
 </html>
