@@ -1,0 +1,82 @@
+body{background-image: linear-gradient(to bottom right, rgb(65, 3, 107), rgb(107, 167, 245));
+text-align: center;}                      
+div.su{text-align: center;}                      
+ul{ list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgba(51, 51, 51, 0);}
+li{float: left;
+font-size: 20px;}
+li a{display:block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;}
+.active{border-bottom-style:solid;
+font-weight: bold;}
+li a:hover:not(.active){border-bottom-style:hidden}
+li a:hover{ background-color: rgba(255, 255, 255, 0.062);}
+div.fnf{text-align: center;
+font-size: 150px; 
+color: white; 
+line-height:0.6em;}
+span.nf{font-size: 30px;} 
+div.none{font-size: 50px;} 
+h1{font-size: 60px;
+color: white;}
+img{width: auto;
+height: auto;
+max-width: 20%;
+max-height: 20%;}
+br{font-size: 20px;}
+div.su{text-align: center;}
+h1.name{line-height:1em}
+p.je{color: white;}
+body{background-image: linear-gradient(to bottom right, rgb(65, 3, 107), rgb(107, 167, 245));
+text-align: center;}                                            
+ul{ list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgba(51, 51, 51, 0);}
+body{background-image: linear-gradient(to bottom right, rgb(65, 3, 107), rgb(107, 167, 245));
+}                                                      
+ul{ list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgba(51, 51, 51, 0);}
+li{float: left;
+font-size: 20px;}
+li a{display:block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;}
+.active{border-bottom-style:solid;
+font-weight: bold;}
+li a:hover:not(.active){border-bottom-style:hidden}
+img.head{width: auto;
+height: auto;
+max-width: 6%;
+max-height: 6%;
+float: left;;}
+div.vhead{color: white;}
+p.name{font-size:30px ;}
+span.in{font-size: 15px;}
+img.cover{width: auto;
+height: auto;
+max-width: 20%;
+max-height: 20%;}
+div.vlist{font-size:20;
+color: white;}
+li a:hover{ background-color: rgba(255, 255, 255, 0.062);}
+a:link {color:#ffffff;
+    text-decoration:none;}      
+a:visited {color:rgb(255, 255, 255);
+    text-decoration:none;}  
+a:hover {color:rgb(255, 255, 255);
+    text-decoration:none;}  
+a:active {color:rgb(255, 255, 255);
+    text-decoration:none;}

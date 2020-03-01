@@ -1,0 +1,122 @@
+body {
+    background-image: linear-gradient(to bottom right,#41036B,#6BA7F5);
+    text-align: center;
+    background-image: linear-gradient(to bottom right,#41036B,#6BA7F5);
+}
+
+div.su {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(51,51,51,0);
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active {
+    border-bottom-style: solid;
+    font-weight: 700;
+}
+
+li a:hover:not(.active) {
+    border-bottom-style: hidden;
+}
+
+li a:hover {
+    background-color: rgba(255,255,255,.062);
+}
+
+div.fnf {
+    line-height: .6em;
+    color: #FFF;
+    font-size: 150px;
+    text-align: center;
+}
+
+span.nf,
+p.name {
+    font-size: 30px;
+}
+
+div.none {
+    font-size: 40px;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 60px;
+}
+
+img,
+img.cover {
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+br {
+    font-size: 20px;
+}
+
+h1.name {
+    line-height: 1em;
+}
+
+div.vhead {
+    color: #FFF;
+    text-align: left;
+}
+
+div.update,
+div.author,
+p.je {
+    color: #FFF;
+}
+
+img.head {
+    float: left;
+    width: auto;
+    height: auto;
+    max-width: 6%;
+    max-height: 6%;
+}
+
+span.in {
+    font-size: 15px;
+}
+
+div.vlist {
+    color: #FFF;
+    font-size: 20;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+div.about,
+div.list {
+    text-align: left;  
+}
+
