@@ -1,7 +1,11 @@
 body {
-    background-image: linear-gradient(to bottom right,#41036B,#6BA7F5);
+    background-image: url("img/ship.png");
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
     text-align: center;
-    background-image: linear-gradient(to bottom right,#41036B,#6BA7F5);
 }
 
 div.su {
@@ -27,6 +31,7 @@ li a {
     color: #FFF;
     text-decoration: none;
     text-align: center;
+    text-shadow: 5px 5px 10px black;
 }
 
 .active {
@@ -47,6 +52,7 @@ div.fnf {
     color: #FFF;
     font-size: 150px;
     text-align: center;
+    text-shadow: 5px 5px 10px black;
 }
 
 span.nf,
@@ -61,6 +67,7 @@ div.none {
 h1 {
     color: #FFF;
     font-size: 60px;
+    text-shadow: 5px 5px 10px black;
 }
 
 img,
@@ -77,6 +84,7 @@ br {
 
 h1.name {
     line-height: 1em;
+    text-shadow: 5px 5px 10px black;
 }
 
 div.vhead {
@@ -88,6 +96,7 @@ div.update,
 div.author,
 p.je {
     color: #FFF;
+    text-shadow: 5px 5px 10px black;
 }
 
 img.head {
